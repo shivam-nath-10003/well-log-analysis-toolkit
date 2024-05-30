@@ -1,31 +1,28 @@
-# Geoscience Data Analysis & Well Log Visualization Project
+# Python and Subsurface Tools
 
-This repository contains code for a comprehensive geoscience project involving data analysis, visualization, and well log interpretation.
+This repository contains code for an engineering project focusing on subsurface data analysis and visualization using Python.
 
 ## Project Overview
 
-The project is divided into three main parts:
+The project involves utilizing Python tools for analyzing subsurface data, including well log data and geothermal power plant information.
 
-1. **Data Analysis**: Utilizing Python libraries such as Pandas and Matplotlib for processing and visualizing geoscience datasets.
-2. **Well Log Analysis**: Utilizing Lasio library for loading and analyzing well log data, and performing various calculations.
-3. **Graphic Logs Visualization**: Using the Striplog package to create graphic logs and visualize stratigraphic information.
+## Data Files
+
+The following data files are included in the repository:
+
+- `GeothermalPowerPlants_wikipedia.csv`: Dataset containing geothermal power plant information.
+- `4900722147_722147B.las`: LAS file containing well log data.
+- `petro-stats.csv`: Petrophysical statistics dataset.
+- `t20-lith.csv`: Lithology data file.
 
 ## Parts Overview
 
-### Part 1: Data Analysis
-- Preprocessing geoscience datasets
-- Visualizing data using scatter plots and bar charts
-- Grouping and summarizing data by state and year
+The project is divided into multiple parts, each focusing on different aspects of subsurface data analysis:
 
-### Part 2: Well Log Analysis
-- Loading well log data from LAS files
-- Analyzing log data and performing calculations
-- Visualizing log data using scatter plots and line plots
-
-### Part 3: Graphic Logs Visualization
-- Utilizing Striplog package for creating graphic logs
-- Expanding abbreviations in well log descriptions
-- Defining rock components and positions within a well log
+1. **Data Analysis**: Preprocessing and analyzing subsurface datasets.
+2. **Well Log Analysis**: Loading and interpreting well log data.
+3. **Petrophysical Analysis**: Analyzing petrophysical statistics.
+4. **Lithology Analysis**: Analyzing lithology data.
 
 ## Getting Started
 
@@ -37,5 +34,4 @@ The project is divided into three main parts:
 ## Contributing
 
 Contributions are welcome! Please open an issue to discuss potential changes or submit a pull request.
-
 
